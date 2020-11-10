@@ -3,7 +3,7 @@
 Plugin Name: schellotest
 Plugin URI: https://notes.cclef-dev.net/posts/160
 Description: simple shortcode test plugin
-Version: 0.1
+Version: 0.2
 Author: Cclef Development
 Author URI: https://notes.cclef-dev.net/
 License: GPLv3
@@ -28,7 +28,7 @@ License along with schellotest.
 function schello_func($atts) {
     $schello =  'この文章は';
     $schello = $schello .  'schelloショートコードにより出力されました。';
-    return $schello;
+    return esc_html($schello);
 }
 
 
