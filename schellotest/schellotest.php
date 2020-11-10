@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: schellotest
-Plugin URI: (プラグインの説明と更新を示すページの URI)
+Plugin URI: https://notes.cclef-dev.net/posts/160
 Description: simple shortcode test plugin
 Version: 0.1
 Author: Cclef Development
